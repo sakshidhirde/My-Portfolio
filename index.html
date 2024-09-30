@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakshi - Web Designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./static/style.css" />
+    <style>
+      ::-webkit-scrollbar {
+        width: 8px;
+        background: rgb(46, 23, 69);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgb(119, 66, 168);
+        border-radius: 5rem;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 231);
+        font-size: 1.01rem;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .left {
+        font-size: 2rem;
+      }
+
+      .purple {
+        color: rgb(119, 66, 168);
+      }
+
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(119, 66, 168);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sakshi's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Skills</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <p>Hi, I'm <span class="purple">Sakshi</span></p>
+          <p>Web Designer & Developer</p>
+          <button>Contact</button>
+        </div>
+
+        <div class="rightSection">
+          <img src="sa.png.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <h1 class="">Professional Skills</h1>
+        <section class="skills section" id="skills">
+          <div class="skills_container">
+            <div class="skill">
+              <div class="skill_data">
+                <div class="skill_name">
+                  <p><i class="fa-brands fa-html5"></i></p>
+                  <p>HTML</p>
+                </div>
+                <div>95%</div>
+              </div>
+              <div class="skill_range html"></div>
+            </div>
+            
+            <div class="skill">
+              <div class="skill_data">
+                <div class="skill_name">
+                  <p><i class="fa-brands fa-js"></i></p>
+                  <p>Javascript</p>
+                </div>
+                <div>75%</div>
+              </div>
+              <div class="skill_range js"></div>
+            </div>
+            <div class="skill">
+              <div class="skill_data">
+                <div class="skill_name">
+                  <p><i class="fa-brands fa-css3-alt"></i> </p>
+                  <p>CSS</p>
+                </div>
+                <div>95%</div>
+              </div>
+              <div class="skill_range css"></div>
+            </div>
+            <div class="skill">
+              <div class="skill_data">
+                <div class="skill_name">
+                  <p><i class="fa-brands fa-python"></i> </p>
+                  <p>Python</p>
+                </div>
+                <div>65%</div>
+              </div>
+              <div class="skill_range python"></div>
+            </div>
+            
+          </div>
+        </section>
+      </section>
+
+       <!-- Work Section -->
+       <section class="workSection">
+        <h1>My Work</h1>
+        <div class="work_container">
+          <div class="work_card">
+            <h2>Project</h2>
+            <p>The digital tool that streamlines the planning, organization, and execution of events. I used skills like Django, Python, 
+              HTML & Bootstrap . </p>
+            <a href="https://github.com/sakshidhirde/Event-Management-System" class="work_link">View Project</a>
+          </div>
+
+          <div class="work_card">
+            <h2>Assignment </h2>
+            <p>Assignment 1 & Assignment 2 </p>
+            <a href="https://drive.google.com/file/d/1A0wuW8eYrN5--tXdfDIKIqZWdmDoi6ki/view?usp=drive_link", class="work_link">View Assignment</a>
+            <a href="https://drive.google.com/file/d/1A0wuW8eYrN5--tXdfDIKIqZWdmDoi6ki/view?usp=drive_link", class="work_link">View Assignment</a>
+          </div>
+            
+
+          <div class="work_card">
+            <h2>Assessment </h2>
+            <p>Assessment 1 & Assessment 2</p>
+            <a href="https://drive.google.com/file/d/1n593taSGkaUyMvhob-6aivZG8aIjRCrC/view?usp=drive_link" class="work_link">View Assessment</a>
+            <a href="https://drive.google.com/file/d/1GvCOSwkd7TC_mwZL8hjVUCVXJWbgMSVd/view?usp=drive_link" class="work_link">View Assessment</a>
+          </div>
+        </div>
+      </section>
+    </main>
+     <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input">
+            <input type="mail" placeholder="Email" class="contact__input">
+            <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+            <input type="button" value="Send" class="contact__button button">
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Sakshi</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p class="footer__copy">&#169; 2024 Sakshi. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Backend Developer", "Web Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Back-end Developer", "Web Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
+
+
+      
+
+      
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Backened Developer", "Web Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
